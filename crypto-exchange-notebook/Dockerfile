@@ -54,4 +54,5 @@ RUN mamba install --quiet --yes \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
-  RUN pip install --quiet --no-cache-dir ccxt
+  RUN pip install --upgrade pip
+  RUN pip install --quiet --no-cache-dir ccxt q plotly cufflinks tensorflow keras eikon
