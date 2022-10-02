@@ -1,4 +1,4 @@
-# Minimal Jupyter Notebook Stack
+# Based on Minimal Jupyter Notebook Stack to include ccxt and some other additional one might need for trade analytics. 
 
 [![docker pulls](https://img.shields.io/docker/pulls/jupyter/minimal-notebook.svg)](https://hub.docker.com/r/jupyter/minimal-notebook/)
 [![docker stars](https://img.shields.io/docker/stars/jupyter/minimal-notebook.svg)](https://hub.docker.com/r/jupyter/minimal-notebook/)
