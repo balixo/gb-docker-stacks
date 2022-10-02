@@ -49,6 +49,7 @@ RUN mamba install --quiet --yes \
     'pytables' \
     'scikit-learn' \
     'scipy' \
+    'quandl' \
     'pandas' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
