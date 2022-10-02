@@ -50,6 +50,7 @@ RUN mamba install --quiet --yes \
     'scikit-learn' \
     'scipy' \
     'quandl' \
+    'quandl' \
     'pandas' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
@@ -57,3 +58,5 @@ RUN mamba install --quiet --yes \
 
   RUN pip install --upgrade pip
   RUN pip install --quiet --no-cache-dir ccxt q plotly cufflinks tensorflow keras eikon
+
+  RUN git clone https://github.com/yhilpisch/py4at.git
