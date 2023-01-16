@@ -50,7 +50,7 @@ RUN mamba install --quiet --yes \
     'scikit-learn' \
     'scipy' \
     'quandl' \
-    'quandl' \
+    'nasdaq-data-link' \
     'pandas' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
